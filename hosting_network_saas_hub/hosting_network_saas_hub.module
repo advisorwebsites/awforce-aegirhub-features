@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Hosting network saas hub feature.
+ */
+
+include_once 'hosting_network_saas_hub.features.inc';

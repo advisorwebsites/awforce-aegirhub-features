@@ -1,0 +1,16 @@
+name = Hosting network saas hub
+description = Custom module to enable all the Aegir Network components
+core = 7.x
+package = Advisor Websites
+dependencies[] = ctools
+dependencies[] = hosting_network
+dependencies[] = hosting_network_api
+dependencies[] = hosting_network_saas
+dependencies[] = oauth_common
+dependencies[] = oauth_common_providerui
+dependencies[] = services
+dependencies[] = services_oauth
+features[ctools][] = services:services:3
+features[features_api][] = api:2
+features[services_endpoint][] = hosting_network_hub
+project path = /tmp/test_features
